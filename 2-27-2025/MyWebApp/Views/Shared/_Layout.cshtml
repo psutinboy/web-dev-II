@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web App</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <nav>
+        <a href="/Home/Index">Home</a>
+        <a href="/Product/Index">Products</a>
+        <a href="/Product/List">List</a>
+        <a href="/Product/Create">Create</a>
+    </nav>
+
+    <div>
+        @RenderBody() <!-- This renders the page content dynamically -->
+    </div>
+</body>
+</html>

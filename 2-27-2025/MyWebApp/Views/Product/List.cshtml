@@ -1,0 +1,42 @@
+@model List<Product>
+
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">🛒 Available Products</h2>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="row">
+            @foreach (var product in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Name</h5>
+                            <p class="card-text text-muted">Price: <strong>₹@product.Price</strong></p>
+                            <p class="text-truncate">@product.Description</p>
+                            <a asp-action="ApplyDiscount" asp-route-productId="@product.Id" asp-route-discountPercentage="10"
+                                class="btn btn-success">
+                                Apply 10% Discount
+                            </a>
+                        </div>
+                        <div class="card-footer bg-white border-top-0 text-center">
+                            <a href="/Product/Details/@product.Id" class="btn btn-primary btn-sm">View Details</a>
+                            <a href="/Cart/Add/@product.Id" class="btn btn-success btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning text-center">
+            No products available at the moment.
+        </div>
+    }
+</div>

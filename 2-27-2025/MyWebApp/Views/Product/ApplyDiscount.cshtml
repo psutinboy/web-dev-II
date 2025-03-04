@@ -1,0 +1,12 @@
+@model Product
+
+@{
+    ViewData["Title"] = "Apply Discount";
+}
+
+<h2>@Model.Name</h2>
+
+<p><strong>Original Price:</strong> $@Model.Price</p>
+<p><strong>Discounted Price:</strong> $@ViewBag.DiscountedPrice</p>
+
+<a href="@Url.Action("Index", "Product")" class="btn btn-primary">Back to Products</a>

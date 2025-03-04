@@ -1,0 +1,13 @@
+@model IEnumerable<MyWebApp.Models.Product>  
+
+<h1>Product List</h1>  
+<ul>  
+    @foreach (var product in Model)  
+    {  
+        <li>  
+            <a href="@Url.Action("Details", "Product", new { id = product.Id })">  
+                @product.Name - $@product.Price  
+            </a>  
+        </li>  
+    }  
+</ul>  
