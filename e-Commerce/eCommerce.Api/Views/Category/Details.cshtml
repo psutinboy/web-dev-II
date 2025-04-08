@@ -1,0 +1,23 @@
+@model CategoryDto
+
+@{
+    ViewData["Title"] = "Category Details";
+}
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Category Details</h2>
+
+<div class="card p-4 shadow rounded">
+    <h4>@Model.Name</h4>
+    
+    <p><strong>ID:</strong> @Model.Id</p>
+
+    <div class="mt-3">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+        <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>

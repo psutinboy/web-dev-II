@@ -1,0 +1,247 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|c:\\users\\dheli\\desktop\\e-commerce-auth\\e-commerce\\ecommerce.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|solutionrelative:ecommerce.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|c:\\users\\dheli\\desktop\\e-commerce-auth\\e-commerce\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|solutionrelative:ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|c:\\users\\dheli\\desktop\\e-commerce-auth\\e-commerce\\ecommerce.api\\controllers\\admin\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|solutionrelative:ecommerce.api\\controllers\\admin\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B40E893F-82D6-49C3-989D-CCACFCC1E8AD}|eCommerce.Application\\eCommerce.Application.csproj|c:\\users\\dheli\\desktop\\e-commerce-auth\\e-commerce\\ecommerce.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B40E893F-82D6-49C3-989D-CCACFCC1E8AD}|eCommerce.Application\\eCommerce.Application.csproj|solutionrelative:ecommerce.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|c:\\users\\dheli\\desktop\\e-commerce-auth\\e-commerce\\ecommerce.api\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|solutionrelative:ecommerce.api\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|c:\\users\\dheli\\desktop\\e-commerce-auth\\e-commerce\\ecommerce.api\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|solutionrelative:ecommerce.api\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|c:\\users\\dheli\\desktop\\e-commerce-auth\\e-commerce\\ecommerce.api\\controllers\\admin\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|solutionrelative:ecommerce.api\\controllers\\admin\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|c:\\users\\dheli\\desktop\\e-commerce-auth\\e-commerce\\ecommerce.api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|solutionrelative:ecommerce.api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|c:\\users\\dheli\\desktop\\e-commerce-auth\\e-commerce\\ecommerce.api\\authorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|solutionrelative:ecommerce.api\\authorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAE751F1-99FC-498F-8ACB-DC3B1986B471}|eCommerce.Infrastructure\\eCommerce.Infrastructure.csproj|c:\\users\\dheli\\desktop\\e-commerce-auth\\e-commerce\\ecommerce.infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAE751F1-99FC-498F-8ACB-DC3B1986B471}|eCommerce.Infrastructure\\eCommerce.Infrastructure.csproj|solutionrelative:ecommerce.infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|c:\\users\\dheli\\desktop\\e-commerce-auth\\e-commerce\\ecommerce.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|solutionrelative:ecommerce.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|c:\\users\\dheli\\desktop\\e-commerce-auth\\e-commerce\\ecommerce.api\\ecommerce.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D06E77D0-434A-4FC4-973C-9758F37B22D6}|eCommerce.Api\\eCommerce.Api.csproj|solutionrelative:ecommerce.api\\ecommerce.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 255,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "eCommerce.Api\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "eCommerce.Api\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T03:48:48.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\Controllers\\Admin\\ProductController.cs",
+              "RelativeDocumentMoniker": "eCommerce.Api\\Controllers\\Admin\\ProductController.cs",
+              "ToolTip": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\Controllers\\Admin\\ProductController.cs",
+              "RelativeToolTip": "eCommerce.Api\\Controllers\\Admin\\ProductController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:47:22.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\Controllers\\Admin\\CategoryController.cs",
+              "RelativeDocumentMoniker": "eCommerce.Api\\Controllers\\Admin\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\Controllers\\Admin\\CategoryController.cs",
+              "RelativeToolTip": "eCommerce.Api\\Controllers\\Admin\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:47:11.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "eCommerce.Api\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "eCommerce.Api\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:47:09.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthorizeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\AuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "eCommerce.Api\\AuthorizeAttribute.cs",
+              "ToolTip": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\AuthorizeAttribute.cs",
+              "RelativeToolTip": "eCommerce.Api\\AuthorizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:47:03.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Application\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "eCommerce.Application\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Application\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "eCommerce.Application\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:46:48.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "eCommerce.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "eCommerce.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:42:49.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\Program.cs",
+              "RelativeDocumentMoniker": "eCommerce.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\Program.cs",
+              "RelativeToolTip": "eCommerce.Api\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwCsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T09:43:59.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "eCommerce.Api\\Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "eCommerce.Api\\Models\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:49:34.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "eCommerce.Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "eCommerce.Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:40:41.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "eCommerce.Api",
+              "DocumentMoniker": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\eCommerce.Api.csproj",
+              "RelativeDocumentMoniker": "eCommerce.Api\\eCommerce.Api.csproj",
+              "ToolTip": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\eCommerce.Api.csproj",
+              "RelativeToolTip": "eCommerce.Api\\eCommerce.Api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T03:39:19.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "eCommerce.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\dheli\\Desktop\\e-Commerce-Auth\\e-Commerce\\eCommerce.Api\\appsettings.json",
+              "RelativeToolTip": "eCommerce.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-04T09:41:47.427Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

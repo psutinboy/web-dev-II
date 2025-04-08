@@ -1,0 +1,12 @@
+@model ProductDto
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Delete Product</h2>
+<p>Are you sure you want to delete @Model.Name?</p>
+<form method="post" asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Delete</button>
+</form>

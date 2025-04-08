@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@ViewData["Title"] - Admin Panel</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - eCommerce.Api</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/eCommerce.Api.styles.css" asp-append-version="true" />
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a asp-controller="Dashboard" asp-action="Index">Dashboard</a></li>
+            <li><a asp-controller="Product" asp-action="Index">Products</a></li>
+            <li><a asp-controller="Category" asp-action="Index">Categories</a></li>
+            <li><a asp-controller="Auth" asp-action="Logout">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="admin-container">
+        @RenderBody()
+    </div>
+
+    <footer>
+        <p>&copy; 2025 - Admin Panel</p>
+    </footer>
+</body>
+</html>

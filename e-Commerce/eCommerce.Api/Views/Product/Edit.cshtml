@@ -1,0 +1,17 @@
+@model ProductDto
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Edit Product</h2>
+<form method="post" asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+    <label>Name:</label> <input asp-for="Name" />
+    <label>Price:</label> <input asp-for="Price" />
+    <label>Category:</label>
+    <select asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
+        <option value="">-- Select Category --</option>
+    </select>
+    <button type="submit">Save Changes</button>
+</form>

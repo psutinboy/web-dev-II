@@ -1,0 +1,6 @@
+{
+    "dotnet.defaultSolution": "eCommerce.sln",
+    "java.project.sourcePaths": [
+        "eCommerce.Api/Views/Shared"
+    ]
+}

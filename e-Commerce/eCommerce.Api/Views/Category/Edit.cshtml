@@ -1,0 +1,32 @@
+@model CategoryDto
+
+@{
+    ViewData["Title"] = "Edit Category";
+}
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Edit Category</h2>
+
+<div class="card p-4 shadow rounded">
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Category Name</label>
+            <input asp-for="Name" class="form-control" required />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mt-3">
+            <button type="submit" class="btn btn-success">Save Changes</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
