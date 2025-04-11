@@ -1928,11 +1928,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Grant Ledbetter\\Desktop\\coding\\e-Commerce\\eCommerce.Domain\\eCommerce.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Grant Ledbetter\\Desktop\\coding\\web dev II\\e-Commerce\\eCommerce.Domain\\eCommerce.Domain.csproj",
       "projectName": "eCommerce.Domain",
-      "projectPath": "C:\\Users\\Grant Ledbetter\\Desktop\\coding\\e-Commerce\\eCommerce.Domain\\eCommerce.Domain.csproj",
+      "projectPath": "C:\\Users\\Grant Ledbetter\\Desktop\\coding\\web dev II\\e-Commerce\\eCommerce.Domain\\eCommerce.Domain.csproj",
       "packagesPath": "C:\\Users\\Grant Ledbetter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Grant Ledbetter\\Desktop\\coding\\e-Commerce\\eCommerce.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Grant Ledbetter\\Desktop\\coding\\web dev II\\e-Commerce\\eCommerce.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

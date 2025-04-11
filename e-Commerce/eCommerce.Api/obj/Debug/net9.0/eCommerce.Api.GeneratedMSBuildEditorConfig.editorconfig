@@ -17,105 +17,105 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = eCommerce.Api
 build_property.RootNamespace = eCommerce.Api
-build_property.ProjectDir = C:\Users\Grant Ledbetter\Desktop\coding\e-Commerce\eCommerce.Api\
+build_property.ProjectDir = C:\Users\Grant Ledbetter\Desktop\coding\web dev II\e-Commerce\eCommerce.Api\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Grant Ledbetter\Desktop\coding\e-Commerce\eCommerce.Api
+build_property.MSBuildProjectDirectory = C:\Users\Grant Ledbetter\Desktop\coding\web dev II\e-Commerce\eCommerce.Api
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/AuthView/Login.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/AuthView/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFZpZXdcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/AuthView/Register.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/AuthView/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFZpZXdcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Auth/Login.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Auth/Register.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Category/Create.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Category/Delete.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Category/Details.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Category/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Category/Edit.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Category/Index.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Home/Index.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Home/Privacy.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Product/Create.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Product/Delete.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Product/Details.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Product/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Product/Edit.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Product/Index.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Shared/Error.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Shared/_AuthLayout.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Shared/_AuthLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRoTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/_ViewImports.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/_ViewStart.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Grant Ledbetter/Desktop/coding/e-Commerce/eCommerce.Api/Views/Shared/_Layout.cshtml]
+[C:/Users/Grant Ledbetter/Desktop/coding/web dev II/e-Commerce/eCommerce.Api/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8kp3gibk71

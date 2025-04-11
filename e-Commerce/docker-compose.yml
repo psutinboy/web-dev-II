@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "8085:8080"
+    depends_on:
+      - db
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=db;Database=ECommerceDB;User Id=sa;Password=Netm0an
+    networks:
+      - ecommerce_network
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: ecommerce_db
+    restart: always
+    environment:
+      SA_PASSWORD: "Netm0an"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    networks:
+      - ecommerce_network
+
+networks:
+  ecommerce_network:
+    driver: bridge
