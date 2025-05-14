@@ -54,19 +54,22 @@ public class ProductService : IProductService
         {
             return false;
         }
-        await _productRepository.Delete(product);
+        _productRepository.Delete(product);
         return true;
+
     }
 
     public async Task<ProductDto> UpdateProductAsync(ProductDto productDto)
     {
-        var product = await _productRepository.GetByIdAsync(productDto.Id.Value);
+        var product = await _productRepository.GetByIdAsync(productDto.Id);
         if (product == null)
         {
             throw new KeyNotFoundException("Product not found");
         }
         _mapper.Map(productDto, product);
-        await _productRepository.Update(product);
+        _productRepository.Update(product);
         return _mapper.Map<ProductDto>(product);
     }
+
+    
 }

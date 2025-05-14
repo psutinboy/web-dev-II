@@ -1,8 +1,8 @@
 using eCommerce.Application.Services;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-[Authorize]
 [Route("admin/categories")]
 public class CategoryController : Controller
 {

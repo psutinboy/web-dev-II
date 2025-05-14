@@ -23,7 +23,7 @@ public class ProductRepository : GenericRepository<Product>, IProductRepository
     {
         return await _context.Products
             .Include(p => p.Category) // Eagerly load Category
-            .ToListAsync();
+            .ToListAsync(); 
     }
 
     public override async Task<Product> GetByIdAsync(int id)

@@ -1,13 +1,17 @@
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace eCommerce.Infrastructure.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        private readonly DbContext _context;
+        private readonly AppDbContext _context;
+
+        //The DbContext class that handles database operations like querying, 
+        // adding, updating, and deleting data
         private readonly DbSet<T> _dbSet;
 
-        public GenericRepository(DbContext context)
+        public GenericRepository(AppDbContext context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
             _dbSet = _context.Set<T>();
@@ -34,10 +38,21 @@ namespace eCommerce.Infrastructure.Repositories
 
         public async Task Update(T entity)
         {
-            if (entity == null) throw new ArgumentNullException(nameof(entity));
 
-            _dbSet.Update(entity);
-            await _context.SaveChangesAsync(); // Ensure changes are saved
+            try
+            {
+                if (entity == null) throw new ArgumentNullException(nameof(entity));
+
+                _dbSet.Update(entity);
+                await _context.SaveChangesAsync(); // Ensure changes are saved
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+            
         }
 
         public async Task Delete(T entity)

@@ -1,9 +1,4 @@
 @model ProductDto
-
-@{
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
-}
-
 <h2>Add Product</h2>
 <form method="post" asp-action="Create">
     <label>Name:</label> <input asp-for="Name" />

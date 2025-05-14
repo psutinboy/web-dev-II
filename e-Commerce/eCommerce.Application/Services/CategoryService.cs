@@ -40,7 +40,7 @@ public class CategoryService : ICategoryService
             throw new KeyNotFoundException("Category not found");
 
         _mapper.Map(categoryDto, existingCategory);
-        await _categoryRepository.Update(existingCategory);
+        _categoryRepository.Update(existingCategory);
         return _mapper.Map<CategoryDto>(existingCategory);
     }
 
@@ -50,7 +50,7 @@ public class CategoryService : ICategoryService
         if (category == null)
             return false;
 
-        await _categoryRepository.Delete(category);
+        _categoryRepository.Delete(category);
         return true;
     }
 }

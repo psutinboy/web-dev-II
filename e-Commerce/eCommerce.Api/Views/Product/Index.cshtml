@@ -1,28 +1,16 @@
 @model IEnumerable<ProductDto>
-
-@{
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
-}
-
 <h2>Product List</h2>
 <table>
     <tr>
-        <th>Name</th>
-        <th>Price</th>
-        <th>Category</th>
-        <th>Actions</th>
+        <th>Name</th><th>Price</th><th>Category</th><th>Quantity</th><th>Actions</th>
     </tr>
     @foreach (var product in Model)
     {
         <tr>
             <td>@product.Name</td>
             <td>@product.Price</td>
-            <td>@(product.Category?.Name ?? "No Category")</td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@product.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@product.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@product.Id">Delete</a>
-            </td>
+            <td>@product.Category.Name</td>
+            <td>@product.StockQuantity</td>
         </tr>
     }
 </table>

@@ -1,5 +1,6 @@
 using AutoMapper;
 using eCommerce.Domain.Entities;
+using eCommerce.Application.DTOs;
 
 public class MappingProfile : Profile
 {
@@ -7,6 +8,6 @@ public class MappingProfile : Profile
     {
         CreateMap<Category, CategoryDto>().ReverseMap();
         CreateMap<Product, ProductDto>().ReverseMap();
-         CreateMap<ApplicationUser, UserDto>().ReverseMap();
+        CreateMap<Inventory, InventoryDto>().ReverseMap();
     }
 }

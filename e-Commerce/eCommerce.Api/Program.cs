@@ -1,21 +1,9 @@
-using System.Text;
 using eCommerce.Application.Services;
 using eCommerce.Infrastructure;
 using eCommerce.Infrastructure.Repositories;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// ✅ Add services for sessions
-builder.Services.AddDistributedMemoryCache(); // Required for session state
-builder.Services.AddSession(options =>
-{
-    options.IdleTimeout = TimeSpan.FromMinutes(30); // Set timeout
-    options.Cookie.HttpOnly = true; // Make it more secure
-    options.Cookie.IsEssential = true; // Ensure it works even if tracking is disabled
-});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -27,35 +15,13 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
-builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
+// Register inventory services
+builder.Services.AddScoped<IInventoryService, InventoryService>();
+builder.Services.AddScoped<IInventoryRepository, InventoryRepository>();
 
-builder.Services.AddDbContext<AppDbContext>(options => options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<AppDbContext>(options => options.UseMySQL(builder.Configuration.GetConnectionString("MySqlConnectionString")));
 
 builder.Services.AddAutoMapper(typeof(MappingProfile));
-
-builder.Services.AddAuthorization();
-
-builder.Services.AddHttpContextAccessor();
-
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = "Bearer";
-    options.DefaultChallengeScheme = "Bearer";
-})
-    .AddJwtBearer("Bearer",options =>
-    {
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = "yourIssuer",
-            ValidAudience = "yourAudience",
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("yourSecretKey"))
-        };
-    });
 
 var app = builder.Build();
 
@@ -72,13 +38,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication();
-
 app.UseAuthorization();
-
-app.UseSession();
-
-app.UseMiddleware<JwtMiddleware>();
 
 app.MapControllerRoute(
     name: "default",

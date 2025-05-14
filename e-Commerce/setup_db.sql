@@ -34,6 +34,18 @@ CREATE TABLE IF NOT EXISTS Products (
     FOREIGN KEY (CategoryId) REFERENCES Categories(Id)
 );
 
+-- Inventory table
+CREATE TABLE IF NOT EXISTS Inventory (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Description VARCHAR(500),
+    Quantity INT NOT NULL DEFAULT 0,
+    UnitPrice DECIMAL(10,2) NOT NULL,
+    LastUpdated DATETIME DEFAULT CURRENT_TIMESTAMP,
+    CreatedAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    UpdatedAt DATETIME NULL
+);
+
 -- Sample data for testing
 INSERT INTO Categories (Name, Description) VALUES 
 ('Electronics', 'Electronic devices and gadgets'),
